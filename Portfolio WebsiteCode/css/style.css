@@ -1,0 +1,197 @@
+* {
+	font-family: Lucida console;
+}
+
+.navbar1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../grey.jpg);
+	height: 10vh;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	position: fixed;
+	font-size: 20px
+}
+
+.navbarbg {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../grey.jpg);
+}
+
+.textdec {
+	text-decoration: none;
+	transition: 0.6s ease;
+	font-family: fantasy;
+	font-size: large;
+	letter-spacing: 3px;
+	color: white;
+}
+
+.textdec:hover {
+	color: black;
+	font-family: fantasy;
+	text-decoration: underline;
+	background-color: white;
+}
+
+.textc {
+	color: white;
+}
+
+.icon1 {
+	width: 4vh;
+	height: 4vh;
+}
+
+.logo img {
+	width: 250px;
+	height: auto;
+	margin-left: 50px;
+}
+
+.main {
+	margin: auto;
+}
+
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title h1 {
+	color: #fff;
+	font-size: 7vh;
+	font-family: Lucida console;
+}
+
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 70px;
+}
+
+#onepage {
+	background-color: rgb(226, 216, 213);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+
+	scroll-padding-top: var(--top-spacing);
+	margin: var(--top-spacing) auto;
+}
+
+#section1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../1.jpg);
+	height: 1000px;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-size: 50px;
+	font-weight: 900;
+	font-family: fantasy;
+}
+
+h2 {
+	text-align: left;
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+
+}
+
+h4 {
+	text-align: left;
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+
+}
+
+h3 {
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+
+}
+
+h5 {
+	text-align: left;
+	color: rgb(0, 0, 0);
+	font-size: 35px;
+
+}
+
+#school {
+	width: 30vh;
+	height: auto;
+	margin: auto;
+	display: block;
+	transition: 1s;
+	filter: invert(100%);
+}
+
+#Moodboard {
+	width: 55%;
+	height: auto;
+	transition: 1s;
+	margin: auto;
+	margin-top: 10vh;
+	display: block;
+}
+
+.gallery1 img {
+	transition: 1s;
+	padding: 0px;
+	width: 30%;
+	height: auto;
+	margin-bottom: 1vh;
+}
+
+.gallery1 img:hover {
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+
+.goldnetz1 img {
+	transition: 1s;
+	padding: 0px;
+}
+
+.goldnetz1 img:hover {
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+
+#goldnetz {
+	width: 100%;
+	height: auto;
+}
+
+.apps img {
+	transition: 1s;
+	padding: 0px;
+	width: 30%;
+	height: auto;
+	margin-bottom: 1vh;
+}
+
+.apps img:hover {
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+
+.photos img {
+	transition: 1s;
+	padding: 0px;
+	width: 30%;
+	height: auto;
+	margin-bottom: 1vh;
+}
+
+.photos img:hover {
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
